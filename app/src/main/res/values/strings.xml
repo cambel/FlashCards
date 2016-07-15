@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="login.message.email">Email</string>
+    <string name="login.message.password">Password</string>
+    <string name="login.message.signin">Sign In</string>
+    <string name="login.message.signup">Sign Up</string>
+    <string name="login_cancel_error">login cancelled</string>
+    <string name="login_error">Could not login %s</string>
+    <string name="flash.card.image.desc">flash card image</string>
+    <string name="flash.card.button.desc">flash card button</string>
+    <string name="main.menu.action.logout">Logout</string>
+    <string name="add_card_title">Title</string>
+    <string name="add_card_notes">Notes</string>
+    <string name="main_error_dispatch_camera">Fail to create file</string>
+    <string name="main_message_picture_source">Pick a photo</string>
+    <string name="add_flashcard_menu_save">Save</string>
+    <string name="main_error_permission_denied">No permission granted</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_flashcard_alert_title">Warning</string>
+    <string name="add_flashcard_alert_message">Do you want to change the current photo?</string>
+    <string name="add_flashcard_alert_button_ok">Continue</string>
+    <string name="add_flashcard_alert_button_cancel">Cancel</string>
+    <string name="add_flashcard_upload_init">Starting to upload image...</string>
+    <string name="add_flashcard_upload_completed">Upload completed</string>
+</resources>
