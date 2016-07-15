@@ -254,6 +254,7 @@ public class MainActivity extends AppCompatActivity implements MainView, OnClick
 
     @Override
     public void onFlashCardRemoved(FlashCard card) {
+        Snackbar.make(mainContainer, getString(R.string.main_card_removed), Snackbar.LENGTH_SHORT).show();
         pagerAdapter.removeItem(card);
         if(pagerAdapter.getCount() == 0)
             btnShare.setEnabled(false);

@@ -95,8 +95,9 @@ public class FirebaseAPI {
     }
 
     public String create(FlashCard card) {
-        dataReference.child(FLASH_CARDS_KEY).push().setValue(card);
-        return dataReference.push().getKey();
+        DatabaseReference dr = dataReference.child(FLASH_CARDS_KEY).push();
+        dr.setValue(card);
+        return dr.getKey();
     }
 
     public void update(FlashCard card) {

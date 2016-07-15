@@ -24,4 +24,5 @@
     <string name="add_flashcard_alert_button_cancel">Cancel</string>
     <string name="add_flashcard_upload_init">Starting to upload image...</string>
     <string name="add_flashcard_upload_completed">Upload completed</string>
+    <string name="main_card_removed">Card removed.</string>
 </resources>
